@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Zen+Kurenaido&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+html{
+    height: 100%;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100%;
+    background-image: url(img/vintage-5971661.jpg);
+    
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-left: 3rem;
+    padding: 15px;
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    color: #fff;
+}
+
+a:visited{
+    color: #fff;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #F2D852;
+}
+
+
+
+header{
+    background-color: #3258A6;
+    height: 10vh;
+
+}
+
+.perfil{
+    
+    background-color: rgba(50,88,166,0.9);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 100vh;
+}
+
+@media (max-width:900px) {
+    .perfil img{
+        width:100%;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+@media (max-width:480px){
+    header{
+        height: 30vh;
+    }
+
+    nav{
+        padding: 25px;
+    }
+
+    ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 3vw;
+    }
+
+}
+
+
+.img-perfil{
+    display: block;
+    height: 85vh;
+    width: 40vw;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px;
+}
+
+.title-perfil{
+
+    text-align: center;
+    color: #F2D852;
+    font-size: 35px;
+    font-family: 'Rowdies', cursive;
+    padding-top: 15px;
+
+}
+
+
+
+main{
+    background-color:rgba(255,255,255,0.9);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+.container h2{
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.container p{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 1.5;
+    
+}
+
+.center{
+    text-align: center;
+    padding: 0 2rem; 
+}
+.container h3{
+    font-family: 'Rowdies', cursive;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 25px;
+
+}
+
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 10px;
+}
+
+.retrato
+, .vinha img {
+    width: 100%
+}
+
+img{
+    width: 100%;
+}
+footer{
+    background-color: #3258A6;
+    width: 100%;
+    height: 30vh;
+}
+
+.text-footer{
+    text-align: center;
+    color: #fff;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 40px 20px;
+    
+}
+
+.text-footer a:visited {
+    color: #fff;
+}
+
+.text-footer2{
+    text-align: center;
+    color: #fff;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 20px;
+    
+}
+
+.text-footer2 a:visited {
+    color: #fff;
+}
+
+.text-footer, .text-footer2 a{
+    color: #fff;
+}
