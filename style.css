@@ -49,6 +49,10 @@ a:visited{
     color: #fff;
 }
 
+a{
+    color: #fff;
+}
+
 a:hover{
     cursor: pointer;
     color: #F2D852;
