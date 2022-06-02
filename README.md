@@ -1,6 +1,10 @@
-# vangogh-page
-#### Pagina simples em html e css com algumas curiosidades e breve biografia sobre o pintor Vincent Van Gogh.
-#### O design foi produzido pelo figma e pode ser visto [clicando aqui](https://www.figma.com/file/DXny7yQZyH7uzstIUEvBMj/Untitled?node-id=0%3A1).
+# Vangogh-page
+## Tecnologias utilizadas:
+- Html
+- CSS
 
-Desenvolvido por [marana oliveira](https://github.com/marioli99)
+#### Pagina simples em html e css com o intuito de trazer algumas curiosidades e breve biografia sobre o pintor Vincent Van Gogh.
+#### O design foi produzido atraés do figma e pode ser visto [clicando aqui](https://www.figma.com/file/DXny7yQZyH7uzstIUEvBMj/Untitled?node-id=0%3A1).
+
+Desenvolvido por [Mariana Oliveira](https://github.com/marioli99)
 
